@@ -1,0 +1,61 @@
+#title {
+	color: #021d1d;
+	text-align: center;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #bcf7fc;
+	color: #021d1d;
+	padding: 10px;
+	text-align: center;
+}
+
+#description {
+	text-align: center;
+	font-weight: bold;	
+}
+
+.info input{
+	width: 75%;
+	margin-bottom: 15px;
+}
+
+.dropdown-menu {
+	padding: 20px 0;
+}
+
+.radio-set,
+.checkboxes {
+	display: flex;
+	padding: 20px 0;
+}
+
+.radio-set p,
+.checkboxes p {
+	float: left;
+	width: 50%;
+	text-align: right;
+
+}
+
+.radio-btns,
+.check-group {
+	float: right;
+	text-align: left;
+	justify-content: right;
+	width: 50%;
+	margin-left: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+

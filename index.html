@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Beer Style Survey</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<header>
+		<h1 id="title">Beer Style Survey</h1>
+	</header>
+<body>
+	<div class="container">
+		<p id="description">Please take this short survey to help us discover the top beer styles today!</p>
+		<form id="survey-form">
+			<div class="info">
+				
+				<label id="name-label">Name:</label><input id="name" type="text" name="name" required placeholder="Please enter your name">
+				<br>
+				<label id="email-label">Email:</label><input id="email" type="email" name="email" required placeholder="Please enter a valid email address">
+				<br>
+				<label id="number-label">Age:</label><input id="number" type="number" name="age" min="15" max="110" required placeholder="Please enter your age digits">
+			</div>
+
+			<div class="dropdown-menu">
+				How often to you purchase craft beer?<select id="dropdown">
+					<option value="1">Once per week</option>
+					<option value="2">2 to 3 times per week</option>
+					<option value="3">More than 3 times per week></option>
+					<option value="0">Never</option>
+				</select>
+			</div>
+
+			<div class="radio-set">
+				<p>Which do you prefer most?</p>
+				<div class="radio-btns">
+					<input type="radio" name="beer" value="ales" checked>Ales<br>
+					<input type="radio" name="beer" value="lagers">Lagers<br>
+					<input type="radio" name="beer" value="wheat">Wheat Beer<br>
+					<input type="radio" name="beer" value="hybrid">Hybrid Styles<br>
+					<input type="radio" name="beer" value="cider">Cider<br>
+				</div>
+			</div>
+			<div class="checkboxes">
+				<p>Please pick your all time favorite styles:</p>
+				<div class="check-group">
+					<input type="checkbox" name="style" value="pale-ale">Pale Ales<br>
+					<input type="checkbox" name="style" value="strong-ale">Strong Ales<br>
+					<input type="checkbox" name="style" value="scottish-style-ale">Scottish-Style Ales<br>
+					<input type="checkbox" name="style" value="dark-lagers">Dark Lagers<br>
+					<input type="checkbox" name="style" value="belgian-style">Belgian Styles<br>
+					<input type="checkbox" name="style" value="wild/sour">Wild/Sour Beers<br>
+					<input type="checkbox" name="style" value="brown-ale">Brown Ales<br>
+					<input type="checkbox" name="style" value="hybrid">Hybrid Beers<br>
+					<input type="checkbox" name="style" value="pilsener-lager">Pilseners and Pale Lagers<br>
+					<input type="checkbox" name="style" value="ipa">India Pale Ales<br>
+					<input type="checkbox" name="style" value="wheat">Wheat Beers<br>
+					<input type="checkbox" name="style" value="porter">Porters<br>
+					<input type="checkbox" name="style" value="stout">Stouts<br>
+					<input type="checkbox" name="style" value="bock">Bocks<br>
+					<input type="checkbox" name="style" value="specialty">Specialty Beers<br>
+				</div>
+			</div>
+
+			<div class="text-area">
+				<p>Please enter your favorite brand:</p>
+				<textarea placeholder="write here!"></textarea>
+			</div>
+
+			<div class="button">
+				<input id="submit" type="submit" name="submit">
+			</div>
+
+		</form>
+	</div>	
+</body>
+</html>
